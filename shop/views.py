@@ -6,5 +6,5 @@ def index(request):
     context = {
         'title': 'Bosh sahifa'
     }
-    return render(request, 'index.html')
+    return render(request, 'index.html', context)
 
